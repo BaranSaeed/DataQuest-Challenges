@@ -4,7 +4,7 @@ f = open("unisex_names_table.csv", "r")
 #Read the file
 read = f.read()
 
-#Convert the String to List
+#Split the Data into rows/Convert the String to List
 names_list = read.split("\n")
 
 numerical_list = []
