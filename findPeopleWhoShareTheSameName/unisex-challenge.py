@@ -1,4 +1,4 @@
-#Open The File
+#Open The File in Read mode
 f = open("unisex_names_table.csv", "r")
 
 #Read the file
